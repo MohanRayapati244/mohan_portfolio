@@ -21,7 +21,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
         "Segoe UI", sans-serif;
     color: var(--text);
-   background: url("disney.jpg") center center / cover no-repeat;
+   background: url("moon/moon.jpg") center center / cover no-repeat;
     scroll-behavior: smooth;
     position: relative;
 }
@@ -31,7 +31,7 @@ body {
             rgba(2, 6, 23, 0.45),
             rgba(2, 6, 23, 0.45)
         ),
-        url("disney.jpg");
+        url("moon/moon.jpg");
 
     background-size: cover;
     background-position: center;

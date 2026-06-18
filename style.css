@@ -45,7 +45,7 @@ body::before {
 }
 
 canvas#bg {
-    display: none;
+    opacity: 0.10;
 }
 
 /* Layout */

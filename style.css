@@ -21,7 +21,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
         "Segoe UI", sans-serif;
     color: var(--text);
-    background: #020617;
+   background: url("images.jpg") center center / cover no-repeat;
     scroll-behavior: smooth;
     position: relative;
 }
@@ -45,10 +45,7 @@ body::before {
 }
 
 canvas#bg {
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    opacity: 0.35;
+    display: none;
 }
 
 /* Layout */
